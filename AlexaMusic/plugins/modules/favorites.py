@@ -4,7 +4,7 @@ import random
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, Message
 
-from config import Config
+from config import config
 from AlexaMusic.core.clients import hellbot
 from AlexaMusic.core.database import db
 from AlexaMusic.core.decorators import UserWrapper, check_mode
