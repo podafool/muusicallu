@@ -33,7 +33,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "SvD_chatfight_bot")
+BOT_USERNAME = getenv("SvD_chatfight_bot")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6174058850 5745099463").split()))
 
